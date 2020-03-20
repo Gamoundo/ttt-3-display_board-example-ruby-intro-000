@@ -2,7 +2,7 @@
 def display_board
 var cell = "   "
 var row = " |   |"
-  puts [" | | ", "-----------", " | | ", "-----------", " | | "]
+  puts [cell + row, "-----------", cell + row, "-----------", cell + row]
 
 
 
