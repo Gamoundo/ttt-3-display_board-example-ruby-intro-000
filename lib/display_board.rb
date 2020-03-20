@@ -2,7 +2,7 @@
 def display_board
  cell = ["   ", "   ", "   "]
 cell2 = cell.*("|")
-  puts [cell2 + "-----------" ]*2
+  puts [cell2, "-----------" ]*2
   puts cell2
 
 
