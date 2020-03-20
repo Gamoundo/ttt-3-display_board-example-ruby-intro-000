@@ -1,8 +1,8 @@
 # Define a method display_board that prints a 3x3 Tic Tac Toe Board
 def display_board
-var cell = "   "
-var row = " |   |"
-  puts [cell + row, "-----------", cell + row, "-----------", cell + row]
+VAR cell = ["   ", "   ", "   "]
+cell.*("|")
+  puts [cell, "-----------", cell, "-----------", cell]
 
 
 
